@@ -1,12 +1,12 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
   (general
     (links 93)
-    (no_connects 93)
-    (area 170.774999 98.524999 201.925001 141.675001)
+    (no_connects 91)
+    (area 93.772619 88.475 201.993155 146.975)
     (thickness 1.6)
     (drawings 5)
-    (tracks 0)
+    (tracks 4)
     (zones 0)
     (modules 48)
     (nets 68)
@@ -1410,7 +1410,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 59DF8476)
-    (at 194.95 116.75 90)
+    (at 194.95 118.25 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /59DEECD0)
@@ -1878,7 +1878,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 58E0A804) (tstamp 59DF84B7)
-    (at 189.65 116.7 90)
+    (at 195 115.5 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /59DF456B)
@@ -2314,5 +2314,10 @@
   (gr_line (start 201.85 141.6) (end 201.85 98.6) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 170.85 141.6) (end 201.85 141.6) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 170.85 99.1) (end 170.85 141.6) (angle 90) (layer Edge.Cuts) (width 0.15))
+
+  (segment (start 191.35 115.75) (end 194.5 115.75) (width 0.25) (layer F.Cu) (net 11) (status 400000))
+  (segment (start 194.5 115.75) (end 195 116.25) (width 0.25) (layer F.Cu) (net 11) (tstamp 59DF9ADB) (status 800000))
+  (segment (start 193.35 116.7) (end 194.15 116.7) (width 0.25) (layer F.Cu) (net 12) (status 400000))
+  (segment (start 194.15 116.7) (end 194.95 117.5) (width 0.25) (layer F.Cu) (net 12) (tstamp 59DF9AE5) (status 800000))
 
 )

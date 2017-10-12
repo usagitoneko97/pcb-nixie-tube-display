@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:Nixie-Tube-with-shiftR-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -247,7 +247,13 @@ s2
 Text Label 5625 4250 1    60   ~ 0
 s1
 Wire Wire Line
-	4050 3125 7325 3125
+	4050 3125 4800 3125
+Wire Wire Line
+	4800 3125 5650 3125
+Wire Wire Line
+	5650 3125 6500 3125
+Wire Wire Line
+	6500 3125 7325 3125
 Connection ~ 4800 3125
 Connection ~ 5650 3125
 Connection ~ 6500 3125
@@ -268,7 +274,13 @@ Wire Wire Line
 	5575 3775 5575 3750
 Connection ~ 5575 3775
 Wire Wire Line
-	4350 3775 6950 3775
+	4350 3775 4975 3775
+Wire Wire Line
+	4975 3775 5575 3775
+Wire Wire Line
+	5575 3775 6300 3775
+Wire Wire Line
+	6300 3775 6950 3775
 Connection ~ 4975 3775
 Connection ~ 6300 3775
 Wire Wire Line
@@ -448,7 +460,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 5550 8575 5550
 Wire Wire Line
-	4625 1700 3950 1700
+	4625 1700 4475 1700
+Wire Wire Line
+	4475 1700 3950 1700
 $Comp
 L R R11
 U 1 1 59DF3F26
@@ -640,11 +654,15 @@ $EndComp
 Wire Wire Line
 	2050 3850 3325 3850
 Wire Wire Line
-	3325 3950 2050 3950
+	3325 3950 2800 3950
+Wire Wire Line
+	2800 3950 2050 3950
 Wire Wire Line
 	3325 4050 2050 4050
 Wire Wire Line
-	2050 4150 3325 4150
+	2050 4150 2575 4150
+Wire Wire Line
+	2575 4150 3325 4150
 Wire Wire Line
 	4900 4275 5325 4275
 Wire Wire Line
@@ -658,7 +676,7 @@ MOSI-OUT
 Text Label 6525 4250 1    60   ~ 0
 MOSI-OUT
 $Comp
-L LED D2
+L LED-RESCUE-Nixie-Tube-with-shiftR D2
 U 1 1 59E02618
 P 8350 2975
 F 0 "D2" H 8350 3075 50  0000 C CNN
@@ -729,13 +747,17 @@ SCK
 Wire Wire Line
 	4300 5675 4300 5950
 Wire Wire Line
-	3700 5950 4600 5950
+	3700 5950 4300 5950
+Wire Wire Line
+	4300 5950 4600 5950
 Wire Wire Line
 	3700 5950 3700 5675
 Wire Wire Line
 	5925 5650 5925 5925
 Wire Wire Line
-	5225 5925 6225 5925
+	5225 5925 5925 5925
+Wire Wire Line
+	5925 5925 6225 5925
 Wire Wire Line
 	5225 5925 5225 5625
 Wire Wire Line
@@ -817,33 +839,15 @@ F 3 "" H 2150 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 5250 2350 5250
+	2150 5250 2225 5250
+Wire Wire Line
+	2225 5250 2275 5250
+Wire Wire Line
+	2275 5250 2350 5250
 Wire Wire Line
 	2950 5250 3275 5250
 Wire Wire Line
 	3275 5250 3275 5200
-$Comp
-L MIC5219-3.3 U4
-U 1 1 59E0C8AF
-P 2650 5350
-F 0 "U4" H 2500 5575 50  0000 C CNN
-F 1 "MIC5219-3.3" H 2650 5575 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2650 5675 50  0001 C CNN
-F 3 "" H 2650 5350 50  0001 C CNN
-	1    2650 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR013
-U 1 1 59E0C9EB
-P 3275 5200
-F 0 "#PWR013" H 3275 5050 50  0001 C CNN
-F 1 "+3.3V" H 3275 5340 50  0000 C CNN
-F 2 "" H 3275 5200 50  0001 C CNN
-F 3 "" H 3275 5200 50  0001 C CNN
-	1    3275 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 5350 2275 5350
 Wire Wire Line
@@ -919,9 +923,13 @@ Wire Wire Line
 	2225 5250 2225 5450
 Connection ~ 2225 5250
 Wire Wire Line
-	2225 5750 3050 5750
+	2225 5750 2650 5750
 Wire Wire Line
-	2650 5650 2650 5775
+	2650 5750 3050 5750
+Wire Wire Line
+	2650 5650 2650 5750
+Wire Wire Line
+	2650 5750 2650 5775
 Connection ~ 2650 5750
 $Comp
 L C C2
@@ -1081,4 +1089,26 @@ Wire Wire Line
 Wire Wire Line
 	6525 1175 6525 1700
 Connection ~ 4475 1700
+$Comp
+L MIC5219-5.0 U?
+U 1 1 59DFA48B
+P 2650 5350
+F 0 "U?" H 2500 5575 50  0000 C CNN
+F 1 "MIC5219-5.0" H 2650 5575 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2650 5675 50  0001 C CNN
+F 3 "" H 2650 5350 50  0001 C CNN
+	1    2650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59DFA725
+P 3275 5200
+F 0 "#PWR?" H 3275 5050 50  0001 C CNN
+F 1 "+5V" H 3275 5340 50  0000 C CNN
+F 2 "" H 3275 5200 50  0000 C CNN
+F 3 "" H 3275 5200 50  0000 C CNN
+	1    3275 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
