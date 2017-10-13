@@ -1,0 +1,18 @@
+(module svg2mod (layer F.Cu) (tedit 59E0DCD2)
+  (attr smd)
+  (descr "Imported from lightning.svg")
+  (tags svg2mod)
+  (fp_text reference svg2mod (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value G*** (at 0 3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_poly
+    (pts 
+      (xy 0.0 0.0)
+    )
+    (layer F.SilkS)
+    (width 0.0)
+  )
+)
