@@ -2,10 +2,10 @@
 
   (general
     (links 105)
-    (no_connects 104)
+    (no_connects 105)
     (area 153.924999 43.924999 188.075001 88.075001)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 7)
     (tracks 0)
     (zones 0)
     (modules 55)
@@ -2543,6 +2543,9 @@
     )
   )
 
+  (gr_text 34x44mm (at 170.5 90) (layer Eco1.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 188 44) (end 188 47) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 154 44) (end 188 44) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 154 47) (end 154 44) (layer Edge.Cuts) (width 0.15))
