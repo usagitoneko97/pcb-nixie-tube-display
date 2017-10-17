@@ -1121,10 +1121,10 @@ $EndComp
 Text Label 6225 4250 1    60   ~ 0
 DotD
 $Comp
-L nixie-tube U?
+L nixie-tube U2
 U 1 1 59E3559F
 P 5450 1950
-F 0 "U?" H 4875 2050 60  0000 C CNN
+F 0 "U2" H 4875 2050 60  0000 C CNN
 F 1 "nixie-tube" H 5625 2275 60  0000 C CNN
 F 2 "nixie-tube-fp:qs30-1" H 5150 1975 60  0001 C CNN
 F 3 "" H 5150 1975 60  0001 C CNN
