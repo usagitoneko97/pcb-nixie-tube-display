@@ -631,8 +631,6 @@ Wire Wire Line
 Wire Wire Line
 	3325 4050 2050 4050
 Wire Wire Line
-	2050 4150 3325 4150
-Wire Wire Line
 	4900 4275 5325 4275
 Wire Wire Line
 	5325 4275 5325 5700
@@ -640,7 +638,7 @@ Wire Wire Line
 	5325 5700 5625 5700
 Wire Wire Line
 	5625 5700 5625 5650
-Text Label 3325 3750 2    60   ~ 0
+Text Label 3325 4150 2    60   ~ 0
 MOSI-OUT
 Text Label 6525 4250 1    60   ~ 0
 MOSI-OUT
@@ -731,9 +729,6 @@ F 3 "" H 2575 3175 50  0001 C CNN
 	1    2575 3175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2575 3175 2575 4150
-Connection ~ 2575 4150
 $Comp
 L GND #PWR08
 U 1 1 59E07C89
@@ -1133,4 +1128,9 @@ F 3 "" H 5150 1975 60  0001 C CNN
 $EndComp
 NoConn ~ 5025 1325
 NoConn ~ 5150 1325
+Wire Wire Line
+	2050 3750 3325 3750
+Wire Wire Line
+	2575 3175 2575 3750
+Connection ~ 2575 3750
 $EndSCHEMATC

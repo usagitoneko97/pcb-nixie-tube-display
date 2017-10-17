@@ -592,7 +592,7 @@ F 3 "" H 3750 1700 50  0001 C CNN
 	1    3750 1700
 	-1   0    0    1   
 $EndComp
-Text Label 2050 4150 0    60   ~ 0
+Text Label 3325 4150 2    60   ~ 0
 MOSI
 Text Label 2050 4050 0    60   ~ 0
 SCK
@@ -638,7 +638,7 @@ Wire Wire Line
 	5325 5700 5625 5700
 Wire Wire Line
 	5625 5700 5625 5650
-Text Label 3325 4150 2    60   ~ 0
+Text Label 2050 4150 0    60   ~ 0
 MOSI-OUT
 Text Label 6525 4250 1    60   ~ 0
 MOSI-OUT
