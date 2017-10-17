@@ -592,15 +592,15 @@ F 3 "" H 3750 1700 50  0001 C CNN
 	1    3750 1700
 	-1   0    0    1   
 $EndComp
-Text Label 2050 3750 0    60   ~ 0
+Text Label 2050 4150 0    60   ~ 0
 MOSI
-Text Label 2050 3850 0    60   ~ 0
+Text Label 2050 4050 0    60   ~ 0
 SCK
 Text Label 2050 3950 0    60   ~ 0
 GND
-Text Label 2050 4050 0    60   ~ 0
+Text Label 2050 3850 0    60   ~ 0
 PWREN
-Text Label 2050 4150 0    60   ~ 0
+Text Label 2050 3750 0    60   ~ 0
 9V
 $Comp
 L Conn_01x05_Female J3
