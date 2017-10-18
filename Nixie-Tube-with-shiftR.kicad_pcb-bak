@@ -3,7 +3,7 @@
   (general
     (links 105)
     (no_connects 0)
-    (area 151.424999 43.924999 188.575001 88.075001)
+    (area 151.424999 42.755 195.925239 91.35)
     (thickness 1.6)
     (drawings 13)
     (tracks 662)
@@ -2551,7 +2551,7 @@
   (gr_line (start 152.5 44) (end 151.5 44) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 154 88) (end 152.5 88) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 154 44) (end 152.5 44) (layer Edge.Cuts) (width 0.15))
-  (gr_text 36.5x44mm (at 170.25 90) (layer Eco1.User)
+  (gr_text 37x44mm (at 170.25 90) (layer Eco1.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 188.5 44) (end 188.5 47) (layer Edge.Cuts) (width 0.15))
