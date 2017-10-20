@@ -602,28 +602,6 @@ Text Label 2050 3850 0    60   ~ 0
 PWREN
 Text Label 2050 3750 0    60   ~ 0
 9V
-$Comp
-L Conn_01x05_Female J3
-U 1 1 59DFF03E
-P 3525 3950
-F 0 "J3" H 3525 4250 50  0000 C CNN
-F 1 "Conn_01x05_Female" H 3525 3650 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x05_Pitch2.54mm" H 3525 3950 50  0001 C CNN
-F 3 "" H 3525 3950 50  0001 C CNN
-	1    3525 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x05_Male J1
-U 1 1 59DFF2D1
-P 1850 3950
-F 0 "J1" H 1850 4250 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 1850 3650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 1850 3950 50  0001 C CNN
-F 3 "" H 1850 3950 50  0001 C CNN
-	1    1850 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 3850 3325 3850
 Wire Wire Line
@@ -703,21 +681,11 @@ SCK
 Wire Wire Line
 	4300 5675 4300 5950
 Wire Wire Line
-	3700 5950 4600 5950
-Wire Wire Line
 	3700 5950 3700 5675
 Wire Wire Line
 	5925 5650 5925 5925
 Wire Wire Line
-	5225 5925 6225 5925
-Wire Wire Line
 	5225 5925 5225 5625
-Wire Wire Line
-	4600 5950 4600 5675
-Connection ~ 4300 5950
-Wire Wire Line
-	6225 5925 6225 5650
-Connection ~ 5925 5925
 $Comp
 L +9V #PWR07
 U 1 1 59E07785
@@ -1133,4 +1101,42 @@ Wire Wire Line
 Wire Wire Line
 	2575 3175 2575 3750
 Connection ~ 2575 3750
+$Comp
+L Conn_01x06_Male J1
+U 1 1 59EA0627
+P 1850 3850
+F 0 "J1" H 1850 4150 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1850 3450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 1850 3850 50  0001 C CNN
+F 3 "" H 1850 3850 50  0001 C CNN
+	1    1850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06_Female J3
+U 1 1 59EA0C3B
+P 3525 3850
+F 0 "J3" H 3525 4150 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 3525 3450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 3525 3850 50  0001 C CNN
+F 3 "" H 3525 3850 50  0001 C CNN
+	1    3525 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5950 3700 5950
+Wire Wire Line
+	5925 5925 5225 5925
+Wire Wire Line
+	6225 5650 6225 6100
+Wire Wire Line
+	6225 6100 3225 6100
+Wire Wire Line
+	3225 6100 3225 3650
+Wire Wire Line
+	4600 5675 4600 6100
+Connection ~ 4600 6100
+Wire Wire Line
+	2050 3650 3325 3650
+Connection ~ 3225 3650
 $EndSCHEMATC
