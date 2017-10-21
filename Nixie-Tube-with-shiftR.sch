@@ -218,23 +218,23 @@ F 3 "" H 5900 2175 50  0001 C CNN
 	1    5900 2175
 	1    0    0    -1  
 $EndComp
-Text Label 4000 4275 1    60   ~ 0
+Text Label 5725 4250 1    60   ~ 0
 s9
-Text Label 4100 4275 1    60   ~ 0
-s8
-Text Label 4200 4275 1    60   ~ 0
-s7
-Text Label 4300 4275 1    60   ~ 0
-s6
-Text Label 4400 4275 1    60   ~ 0
-s5
-Text Label 4500 4275 1    60   ~ 0
-s4
-Text Label 4600 4275 1    60   ~ 0
-s3
-Text Label 4700 4275 1    60   ~ 0
-s2
 Text Label 5625 4250 1    60   ~ 0
+s8
+Text Label 4700 4275 1    60   ~ 0
+s7
+Text Label 4600 4275 1    60   ~ 0
+s6
+Text Label 4500 4275 1    60   ~ 0
+s5
+Text Label 4400 4275 1    60   ~ 0
+s4
+Text Label 4300 4275 1    60   ~ 0
+s3
+Text Label 4200 4275 1    60   ~ 0
+s2
+Text Label 4100 4275 1    60   ~ 0
 s1
 Wire Wire Line
 	4050 3125 7325 3125
@@ -294,7 +294,7 @@ Text Label 6000 3275 2    60   ~ 0
 s1
 Text Label 6650 3275 2    60   ~ 0
 s0
-Text Label 5725 4250 1    60   ~ 0
+Text Label 4000 4275 1    60   ~ 0
 s0
 $Comp
 L 74HC595D U1
