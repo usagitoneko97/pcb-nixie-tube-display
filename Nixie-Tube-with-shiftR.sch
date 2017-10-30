@@ -1139,4 +1139,6 @@ F 3 "" H 9700 4675 50  0001 C CNN
 	1    9700 4675
 	1    0    0    -1  
 $EndComp
+Text Label 2050 3650 0    60   ~ 0
+OE
 $EndSCHEMATC
