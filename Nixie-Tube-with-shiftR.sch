@@ -672,10 +672,6 @@ Text Label 4000 5675 3    60   ~ 0
 MOSI
 Text Label 4200 5675 3    60   ~ 0
 SCK
-Text Label 4500 5675 3    60   ~ 0
-SCK
-Text Label 6125 5650 3    60   ~ 0
-SCK
 Text Label 5825 5650 3    60   ~ 0
 SCK
 Wire Wire Line
@@ -1114,7 +1110,7 @@ F 3 "" H 9700 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2050 3650 0    60   ~ 0
-OE
+STORE
 $Comp
 L +VDC #PWR?
 U 1 1 5A0A5D8C
@@ -1162,4 +1158,8 @@ Connection ~ 2900 5450
 Wire Wire Line
 	2775 5800 2775 5975
 Connection ~ 2775 5975
+Text Label 4500 5675 3    60   ~ 0
+STORE
+Text Label 6125 5650 3    60   ~ 0
+STORE
 $EndSCHEMATC
