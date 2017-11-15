@@ -1162,16 +1162,14 @@ F 3 "" H 9600 5175 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nixie-tube U2
-U 1 1 5A0CB7BC
+L nixie-tube-qs27 U?
+U 1 1 5A0CF6F4
 P 5450 1950
-F 0 "U2" H 4875 2050 60  0000 C CNN
-F 1 "nixie-tube" H 5625 2275 60  0000 C CNN
+F 0 "U?" H 4875 2050 60  0000 C CNN
+F 1 "nixie-tube-qs27" H 5625 2275 60  0000 C CNN
 F 2 "" H 5150 1975 60  0001 C CNN
 F 3 "" H 5150 1975 60  0001 C CNN
 	1    5450 1950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5025 1325
-NoConn ~ 5150 1325
 $EndSCHEMATC
