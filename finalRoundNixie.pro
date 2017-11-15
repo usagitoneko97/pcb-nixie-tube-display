@@ -1,4 +1,4 @@
-update=Mon 31 Jul 2017 10:04:56 AM MDT
+update=11/15/2017 8:16:59 PM
 version=1
 last_client=kicad
 [general]
@@ -63,3 +63,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+LibName33=nixie-tube
