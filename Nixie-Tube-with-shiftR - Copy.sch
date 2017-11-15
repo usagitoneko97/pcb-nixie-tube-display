@@ -1020,6 +1020,19 @@ F 3 "" V 8725 1550 50  0001 C CNN
 $EndComp
 Text Label 6225 4250 1    60   ~ 0
 DotD
+$Comp
+L nixie-tube U2
+U 1 1 59E3559F
+P 5450 1950
+F 0 "U2" H 4875 2050 60  0000 C CNN
+F 1 "nixie-tube" H 5625 2275 60  0000 C CNN
+F 2 "nixie-tube-fp:qs30-1" H 5150 1975 60  0001 C CNN
+F 3 "" H 5150 1975 60  0001 C CNN
+	1    5450 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5025 1325
+NoConn ~ 5150 1325
 Wire Wire Line
 	2050 3750 3325 3750
 Wire Wire Line
@@ -1159,17 +1172,6 @@ F 1 "GND" H 6225 5500 50  0000 C CNN
 F 2 "" H 6225 5650 50  0001 C CNN
 F 3 "" H 6225 5650 50  0001 C CNN
 	1    6225 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L nixie-tube-qs27 U?
-U 1 1 5A0C1069
-P 5450 1950
-F 0 "U?" H 4875 2050 60  0000 C CNN
-F 1 "nixie-tube-qs27" H 5625 2275 60  0000 C CNN
-F 2 "nixie-tube-fp:qs27-1" H 5150 1975 60  0001 C CNN
-F 3 "" H 5150 1975 60  0001 C CNN
-	1    5450 1950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
