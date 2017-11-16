@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:nixie-tube
+LIBS:finalRoundNixie-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -552,7 +553,7 @@ U 1 1 59DF94EB
 P 3750 1700
 F 0 "J2" H 3750 1800 50  0000 C CNN
 F 1 "HV_IN" H 3750 1600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x01_Pitch2.54mm" H 3750 1700 50  0001 C CNN
+F 2 "nixie-tube-fp:Socket_Strip_Angled_1x01_Pitch2.54mm_without_silk" H 3750 1700 50  0001 C CNN
 F 3 "" H 3750 1700 50  0001 C CNN
 	1    3750 1700
 	-1   0    0    1   
@@ -1007,7 +1008,7 @@ U 1 1 59EA0C3B
 P 3525 3850
 F 0 "J3" H 3525 4150 50  0000 C CNN
 F 1 "Conn_01x06_Female" H 3525 3450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 3525 3850 50  0001 C CNN
+F 2 "nixie-tube-fp:Socket_Strip_Angled_1x06_Pitch2.54mm_without_silk" H 3525 3850 50  0001 C CNN
 F 3 "" H 3525 3850 50  0001 C CNN
 	1    3525 3850
 	1    0    0    -1  
