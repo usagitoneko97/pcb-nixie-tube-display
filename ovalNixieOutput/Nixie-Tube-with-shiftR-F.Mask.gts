@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.7*%
-%TF.CreationDate,2017-11-17T14:06:49+08:00*%
+%TF.CreationDate,2017-11-17T19:54:53+08:00*%
 %TF.ProjectId,Nixie-Tube-with-shiftR,4E697869652D547562652D776974682D,rev?*%
 %TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/17/17 14:06:49*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/17/17 19:54:53*
 %MOMM*%
 %LPD*%
 G01*
