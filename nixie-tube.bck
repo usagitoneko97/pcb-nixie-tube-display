@@ -22,4 +22,14 @@ D 8 bits serial in // out Shift Register Open Collect.
 K HCMOS SR OpenCol
 $ENDCMP
 #
+$CMP LED_RGB
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
+$CMP LED_RGB_BGR
+D LED RGB 6 pins
+K led rgb diode
+$ENDCMP
+#
 #End Doc Library
