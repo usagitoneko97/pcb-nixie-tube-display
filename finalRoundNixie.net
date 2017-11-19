@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/User_Lenovo/Documents/pcb-project/pcb-nixie-tube-display/finalRoundNixie.sch)
-    (date "11/19/17 12:13:30")
+    (date "11/19/17 12:22:07")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -508,9 +508,9 @@
         (field (name Reference) U)
         (field (name Value) ams1117-5.0))
       (pins
-        (pin (num 1) (name IN) (type input))
-        (pin (num 2) (name ADJ) (type input))
-        (pin (num 3) (name OUT) (type input))))
+        (pin (num 1) (name ADJ) (type input))
+        (pin (num 2) (name OUT) (type input))
+        (pin (num 3) (name IN) (type input))))
     (libpart (lib nixie-tube) (part nixie-tube)
       (fields
         (field (name Reference) U)
@@ -542,7 +542,7 @@
     (net (code 1) (name +VDC)
       (node (ref J3) (pin 2))
       (node (ref J1) (pin 2))
-      (node (ref U4) (pin 1))
+      (node (ref U4) (pin 3))
       (node (ref C1) (pin 1)))
     (net (code 2) (name "Net-(NE1-Pad2)")
       (node (ref R25) (pin 1))
@@ -671,7 +671,7 @@
       (node (ref Q3) (pin 2))
       (node (ref Q6) (pin 2))
       (node (ref U1) (pin 13))
-      (node (ref U4) (pin 2))
+      (node (ref U4) (pin 1))
       (node (ref C1) (pin 2))
       (node (ref C2) (pin 2))
       (node (ref U3) (pin 13))
@@ -698,7 +698,7 @@
       (node (ref U1) (pin 16))
       (node (ref C3) (pin 1))
       (node (ref C2) (pin 1))
-      (node (ref U4) (pin 3)))
+      (node (ref U4) (pin 2)))
     (net (code 43) (name /s7)
       (node (ref R19) (pin 1))
       (node (ref U1) (pin 7)))
