@@ -33,7 +33,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:nixie-tube
-LIBS:Nixie-Tube-with-shiftR-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1077,7 +1076,7 @@ L nixie-tube-qs27 U2
 U 1 1 5A0CF6F4
 P 5450 1950
 F 0 "U2" H 4875 2050 60  0000 C CNN
-F 1 "nixie-tube-qs27" H 5625 2275 60  0000 C CNN
+F 1 "nixie-tube-qs27" H 5425 2275 60  0000 C CNN
 F 2 "nixie-tube-fp:qs27-1" H 5150 1975 60  0001 C CNN
 F 3 "" H 5150 1975 60  0001 C CNN
 	1    5450 1950

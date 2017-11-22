@@ -1083,17 +1083,6 @@ F 3 "" H 6200 5925 50  0001 C CNN
 $EndComp
 NoConn ~ 5025 1325
 NoConn ~ 5150 1325
-$Comp
-L nixie-tube U2
-U 1 1 5A0CCC70
-P 5450 1950
-F 0 "U2" H 4875 2050 60  0000 C CNN
-F 1 "nixie-tube" H 5625 2275 60  0000 C CNN
-F 2 "nixie-tube-fp:qs30-1" H 5150 1975 60  0001 C CNN
-F 3 "" H 5150 1975 60  0001 C CNN
-	1    5450 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 5225 8425 5225
 Wire Wire Line
@@ -1204,4 +1193,15 @@ Wire Wire Line
 	5800 2025 5800 2075
 Wire Wire Line
 	5900 2025 5900 2075
+$Comp
+L nixie-tube-qs30 U?
+U 1 1 5A159070
+P 5450 1950
+F 0 "U?" H 4875 2050 60  0000 C CNN
+F 1 "nixie-tube-qs30" H 5600 2250 60  0000 C CNN
+F 2 "nixie-tube-fp:qs30-1" H 5150 1975 60  0001 C CNN
+F 3 "" H 5150 1975 60  0001 C CNN
+	1    5450 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
